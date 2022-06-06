@@ -43,7 +43,7 @@ export const SalesListView = (props: { collectionMintFilter?: string }) => {
     <>
       {!props.collectionMintFilter && (
         <Banner
-          src="/main-banner.svg"
+          src="/main-banner.png"
           headingText="90210crypto NFT Marketplace."
           subHeadingText="Buy exclusive 90210 NFTs."
           actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
