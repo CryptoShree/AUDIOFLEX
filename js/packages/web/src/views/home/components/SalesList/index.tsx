@@ -44,8 +44,8 @@ export const SalesListView = (props: { collectionMintFilter?: string }) => {
       {!props.collectionMintFilter && (
         <Banner
           src="/main-banner.png"
-          headingText="ANNA NICOLE SMITH SUPREME/SUPERB NFT COLLECTION."
-          subHeadingText="Buy Exclusive Daniela Federici NFTs."
+          headingText="ANNA NICOLE SMITH SUPREME/SUPERB COLLECTION."
+          subHeadingText="Exclusive Daniela Federici NFTs."
           actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
           useBannerBg
         />
